@@ -7,15 +7,33 @@ const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
-        <title>Create Next App</title>
+        <title>screencache</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
+          Screen Cache landing page Download Screen Cache from the iOS or
+          Android store to get started!
+        </h1>
+        <h1 className="title">
           Read{' '}
           <Link href="/posts/first-post">
             <a>this page!</a>
+          </Link>
+        </h1>
+
+        <h1 className="title">
+          Data Deletion{' '}
+          <Link href="/posts/datadeletion">
+            <a>here!</a>
+          </Link>
+        </h1>
+
+        <h1 className="title">
+          Privacy Policy{' '}
+          <Link href="/posts/privacypolicy">
+            <a>here!</a>
           </Link>
         </h1>
       </main>
