@@ -3,6 +3,30 @@ import Link from 'next/link';
 export default function DataDeletion() {
     return (
         <>
+            <nav>
+                <div>
+                    <ul>
+                        <li>
+                            <Link href="/">
+                                <a>Home</a>
+                            </Link>
+                        </li>
+                        <li>
+                            {' '}
+                            <Link href="/posts/datadeletion">
+                                <a>Data Deletion</a>
+                            </Link>
+                        </li>
+                        <li>
+                            {' '}
+                            <Link href="/posts/privacypolicy">
+                                <a>Privacy Policy</a>
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
             <h1>Data DataDeletion</h1>
             <p>You can delete your comments any time by clicking the ellipsis ("...") button that appears when you hover over one of your own comments while logged in and select Delete. On mobile views this button is always displayed.
 

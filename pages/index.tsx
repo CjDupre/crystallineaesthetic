@@ -36,7 +36,8 @@ const Home: NextPage = () => {
             <a>here!</a>
           </Link>
         </h1>
-      </main>
+      </main>2
+
 
       <footer>
         <a
