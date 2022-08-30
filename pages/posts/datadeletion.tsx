@@ -3,27 +3,27 @@ import Link from 'next/link';
 export default function DataDeletion() {
     return (
         <>
-            <nav class="bg-purple-700 shadow-lg">
-                <div class="container mx-auto">
-                    <div class="sm:flex justify-around">
-                        <a href="#" class="text-white text-3xl font-bold p-3">screencache</a>
-                        <ul class="text-gray-400 sm:self-center text-xl border-t sm:border-none ">
+            <nav className="bg-purple-700 shadow-lg">
+                <div className="container mx-auto">
+                    <div className="sm:flex justify-around">
+                        <a href="#" className="text-white text-3xl font-bold p-3">screencache</a>
+                        <ul className="text-gray-400 sm:self-center text-xl border-t sm:border-none ">
 
-                            <li class="sm:inline-block">
+                            <li className="sm:inline-block">
                                 <Link href="/">
-                                    <a class="p-3 hover:text-white">Home</a>
+                                    <a className="p-3 hover:text-white">Home</a>
                                 </Link>
                             </li>
-                            <li class="sm:inline-block">
+                            <li className="sm:inline-block">
                                 {' '}
                                 <Link href="/posts/datadeletion">
-                                    <a class="p-3 hover:text-white">Data Deletion</a>
+                                    <a className="p-3 hover:text-white">Data Deletion</a>
                                 </Link>
                             </li>
-                            <li class="sm:inline-block">
+                            <li className="sm:inline-block">
                                 {' '}
                                 <Link href="/posts/privacypolicy">
-                                    <a class="p-3 hover:text-white">Privacy Policy</a>
+                                    <a className="p-3 hover:text-white">Privacy Policy</a>
                                 </Link>
                             </li>
                         </ul>
