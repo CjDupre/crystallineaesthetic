@@ -3,27 +3,31 @@ import Link from 'next/link';
 export default function DataDeletion() {
     return (
         <>
-            <nav>
-                <div>
-                    <ul>
-                        <li>
-                            <Link href="/">
-                                <a>Home</a>
-                            </Link>
-                        </li>
-                        <li>
-                            {' '}
-                            <Link href="/posts/datadeletion">
-                                <a>Data Deletion</a>
-                            </Link>
-                        </li>
-                        <li>
-                            {' '}
-                            <Link href="/posts/privacypolicy">
-                                <a>Privacy Policy</a>
-                            </Link>
-                        </li>
-                    </ul>
+            <nav class="bg-purple-700 shadow-lg">
+                <div class="container mx-auto">
+                    <div class="sm:flex justify-around">
+                        <a href="#" class="text-white text-3xl font-bold p-3">screencache</a>
+                        <ul class="text-gray-400 sm:self-center text-xl border-t sm:border-none ">
+
+                            <li class="sm:inline-block">
+                                <Link href="/">
+                                    <a class="p-3 hover:text-white">Home</a>
+                                </Link>
+                            </li>
+                            <li class="sm:inline-block">
+                                {' '}
+                                <Link href="/posts/datadeletion">
+                                    <a class="p-3 hover:text-white">Data Deletion</a>
+                                </Link>
+                            </li>
+                            <li class="sm:inline-block">
+                                {' '}
+                                <Link href="/posts/privacypolicy">
+                                    <a class="p-3 hover:text-white">Privacy Policy</a>
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
 
