@@ -5,13 +5,16 @@ import Image from 'next/image';
 
 const Home: NextPage = () => {
   return (
+
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
         <title>screencache</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
       <main>
+
         <h1 className="title">
           Screen Cache landing page Download Screen Cache from the iOS or
           Android store to get started!
@@ -36,7 +39,7 @@ const Home: NextPage = () => {
             <a>here!</a>
           </Link>
         </h1>
-      </main>2
+      </main>
 
 
       <footer>
@@ -66,6 +69,7 @@ const Home: NextPage = () => {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          background-image: linear-gradient(to right, #2A3694, #219386)
         }
 
         footer {
