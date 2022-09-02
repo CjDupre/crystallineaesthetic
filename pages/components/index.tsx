@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import Link from 'next/Link';
 
 const NavComponent: NextPage = () => {
     return (
