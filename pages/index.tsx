@@ -13,32 +13,30 @@ const Home: NextPage = () => {
       </Head>
 
 
-      <main>
+      <main >
 
         <h1 className="title">
           Screen Cache landing page Download Screen Cache from the iOS or
           Android store to get started!
         </h1>
-        <h1 className="title">
+        {/* <h1 className="title card">
           Read{' '}
           <Link href="/posts/first-post">
             <a>this page!</a>
           </Link>
-        </h1>
-
-        <h1 className="title">
-          Data Deletion{' '}
+        </h1> */}
+        <div style={{ flex: 1, flexDirection: 'row' }}>
           <Link href="/posts/datadeletion">
-            <a>here!</a>
+            <h1 className="title card">
+              Data Deletion{' '}
+            </h1>
           </Link>
-        </h1>
-
-        <h1 className="title">
-          Privacy Policy{' '}
           <Link href="/posts/privacypolicy">
-            <a>here!</a>
-          </Link>
-        </h1>
+            <h1 className="title card">
+              Privacy Policy{' '}
+
+            </h1>
+          </Link></div>
       </main>
 
 
