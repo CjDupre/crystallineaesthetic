@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/Link';
 
 export default function DataDeletion() {
     return (
@@ -26,9 +26,17 @@ export default function DataDeletion() {
                                     <a className="p-3 hover:text-black">Privacy Policy</a>
                                 </Link>
                             </li>
+
                         </ul>
+                        {/* <div class="space-y-2">
+                            <span class="block w-8 h-1 bg-gray-600"></span>
+                            <span class="block w-8 h-1 bg-gray-600"></span>
+                            <span class="block w-8 h-1 bg-gray-600"></span>
+                        </div> */}
                     </div>
+
                 </div>
+
             </nav>
             <main className="title 
             container3 grid">
